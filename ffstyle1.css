@@ -1,0 +1,124 @@
+
+h1,h2{
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    color:black;
+    padding-top: 1.5%;
+}
+
+button{
+    border:10px white;
+    background-color: dimgray;
+    width: 100%;
+}
+
+.nav_button{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: 'Markazi Text';
+    font-size: larger;
+}
+
+.nav_button:hover{
+    background-color: aqua;
+}
+
+.nav_button_inner_1,.nav_button_inner_2,.nav_button_inner_3,.nav_button_inner_4,.nav_button_inner_5,.nav_button_inner_6{
+    display:none;
+    overflow: hidden;
+}
+.nav_button_inner_1:hover,.nav_button_inner_2:hover,.nav_button_inner_3:hover,.nav_button_inner_4:hover,.nav_button_inner_5:hover,.nav_button_inner_6:hover{
+    background-color: aqua;
+}
+
+table, th, td {
+    border:1px solid rgb(26, 26, 26);
+  }
+
+.intro {
+    width: 200px;
+    position: top;
+    text-shadow: 5cm;
+  }
+
+.medailon{
+    min-width: 10%;
+    min-height: 30%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px white solid;
+}
+
+nav{
+    min-width: 10%;
+    min-height: 70%;
+    position: fixed;
+    top:30%;
+    left:0%;
+
+    background-color: rgb(26, 26, 26);
+    z-index: -1;
+
+    text-align: left;
+    padding-top: 5%;;
+}
+
+.content{
+    display: none;
+    float: right;
+    position: fixed;
+    min-height: 90%;
+    width: 90%;
+    top: 15%;
+    left: 10%;
+    background-color: rgb(88, 88, 88);
+    overflow: scroll;
+    border-left: 1px white solid;
+    border-top: 1px white solid;
+}
+
+
+footer{
+    min-width: 90%;
+    min-height: 15%;
+
+    position: fixed;
+    top:0;
+    left:10%;
+
+    background-color: rgb(26, 26, 26);
+    border-left: 1px white solid;
+
+    /*font-family: 'Markazi Text';
+    color: white;
+    font-size: 80px;*/
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Tangerine', serif;
+    font-size: 80px;
+    color: darkgoldenrod;
+        /*text-align: center;*/
+
+}
+
+.show {display:inherit;}
+
+.profilepic{
+    border-radius: 50%;
+    height: 135px;
+    width: 135px;
+    background-color: blueviolet;
+    position: relative;
+    margin: 15%;
+
+}
+
+#golden{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    color: darkgoldenrod;
+    text-align: center;
+    width: 100%;
+}
