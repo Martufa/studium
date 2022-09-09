@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Martůfiny zápisky ze studia</title>
+        <link rel="stylesheet" href="ffstyle1.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@450" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+    <body onload="openContent('INTRO')"> <!--onload="openContent('INTRO')"-->
+        <nav>
+            <button class="nav_button" onclick="openContent('INTRO')">INTRO</button>
+            <button class="nav_button" onclick="navToggle('nav_button_inner_1')">První semestr</button><br>
+            <button class="nav_button_inner_1">Úvod do filozofie</button>
+            <button class="nav_button_inner_1">Logika I</button>
+            <button class="nav_button_inner_1">Etika</button>
+            <button class="nav_button_inner_1" onClick="openContent('PHV480')">Filozofie ve videohrách</button>
+
+            <button class="nav_button" onclick="navToggle('nav_button_inner_2')">Druhý semestr</button><br>
+            <button class="nav_button_inner_2">Logika II</button>
+
+            <button class="nav_button" onclick="navToggle('nav_button_inner_3')">Třetí semestr</button><br>
+
+            <button class="nav_button" onclick="navToggle('nav_button_inner_4')">Čtvrtý semestr</button><br>
+            <button class="nav_button_inner_4" onClick="openContent('PHBO')">Ontologie</button>
+            <button class="nav_button_inner_4" onClick="openContent('PHBD4')">Dějiny filozofie IV</button>
+
+            <button class="nav_button" onclick="navToggle('nav_button_inner_5')">Pátý semestr</button><br>
+            <button class="nav_button_inner_5" onClick="openContent('PHBG')">Epistemologie</button>
+            <button class="nav_button_inner_5" onClick="openContent('PHBD5')">Dějiny filozofie V</button>
+            <button class="nav_button_inner_5" onClick="openContent('PHV459')">Filozofie dějin <br> a politické filozofie I</button>
+
+
+            <button class="nav_button" onclick="navToggle('nav_button_inner_6')">Šestý semestr</button><br>
+
+        </nav>
+
+        <div class="medailon"> 
+                <img src="profilepic.png" class="profilepic"><br>
+                <!--<div id="golden">Ahoj!</div>-->
+                <button>Rozcestník</button>
+        </div>
+
+        <footer>
+                Zápisky ze studia
+        </footer>
+
+        <!--CONTENT LINKS-->
+        <iframe src="intro.html" frameborder="0" class="content" id='INTRO'></iframe>
+        <iframe src="phbo.html" frameborder="0" class="content" id='PHBO'></iframe>
+        <iframe src="phbd4.html" frameborder="0" class="content" id="PHBD4"></iframe>
+
+
+        <script>
+            function openContent(para){
+                toggleOpen(false, "content");
+                document.getElementById(para).style.display = "inherit";
+            }
+            //toggleOpne(action::bool - open/close - t/f, class_name::str -what are you opening/closing)
+            function toggleOpen(open, class_name){
+                var i;
+                var class_list = document.getElementsByClassName(class_name);
+                for (i = 0; i<class_list.length; i++){
+                    if (open === true){class_list[i].style.display = "inherit";
+                    }else{class_list[i].style.display = "none";
+                    }  
+                }
+            }
+
+            function navToggle(class_name){
+                var i;
+                var class_list = document.getElementsByClassName(class_name);
+                for (i = 0; i<class_list.length; i++){
+                    if (class_list[i].style.display === "inherit"){class_list[i].style.display = "none";
+                    } else{class_list[i].style.display = "inherit";}
+                }
+            }
+        </script>
+    </body>
+</html>
