@@ -38,7 +38,7 @@ button{
 }
 
 table, th, td {
-    border:1px solid rgb(26, 26, 26);
+    border:1px solid black;
   }
 
 .intro {
