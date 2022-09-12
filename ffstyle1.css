@@ -6,6 +6,12 @@ h1,h2{
     padding-top: 1.5%;
 }
 
+h6{
+    font-family: 'Markazi Text';
+    position: relative;
+    color: darkgoldenrod;
+}
+
 button{
     border:10px white;
     background-color: dimgray;
