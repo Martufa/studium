@@ -128,3 +128,9 @@ footer{
     text-align: center;
     width: 100%;
 }
+
+.inner_iframe{
+width: 90%;
+height: 750px;
+overflow: scroll;
+}
