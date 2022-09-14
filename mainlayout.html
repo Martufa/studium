@@ -6,16 +6,19 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@450" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     </head>
-    <body onload="openContent('INTRO')"> <!--onload="openContent('INTRO')"-->
+    <body onload="openContent('INTRO')">
         <nav>
             <button class="nav_button" onclick="openContent('INTRO')">INTRO</button>
             <button class="nav_button" onclick="navToggle('nav_button_inner_1')">První semestr</button><br>
             <button class="nav_button_inner_1">Úvod do filozofie</button>
+            <button class="nav_button_inner_1" onClick="openContent('PHBD1')">Dějiny filozofie I</button>
             <button class="nav_button_inner_1">Logika I</button>
             <button class="nav_button_inner_1">Etika</button>
             <button class="nav_button_inner_1" onClick="openContent('PHV480')">Filozofie ve videohrách</button>
+            
 
             <button class="nav_button" onclick="navToggle('nav_button_inner_2')">Druhý semestr</button><br>
+            <button class="nav_button_inner_1" onClick="openContent('PHBD2')">Dějiny filozofie II</button>
             <button class="nav_button_inner_2">Logika II</button>
 
             <button class="nav_button" onclick="navToggle('nav_button_inner_3')">Třetí semestr</button><br>
@@ -47,6 +50,13 @@
 
         <!--CONTENT LINKS-->
         <iframe src="intro.html" frameborder="0" class="content" id='INTRO'></iframe>
+        
+        <!--1-->
+        <iframe src="bc/1/phbd1.html" frameborder="0" class="content" id='PHBD1'></iframe>
+        <!--2-->
+        <iframe src="bc/2/phbd2.html" frameborder="0" class="content" id='PHBD2'></iframe>
+        <!--3-->
+        <!--4-->
         <iframe src="bc/4/phbo.html" frameborder="0" class="content" id='PHBO'></iframe>
         <iframe src="bc/4/phbd4.html" frameborder="0" class="content" id="PHBD4"></iframe>
         
