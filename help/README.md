@@ -1,1 +1,0 @@
-Idk, bude tohle fungovat?
