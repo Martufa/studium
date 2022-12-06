@@ -23,7 +23,7 @@ button{
     color: white;
     font-family: 'Markazi Text';
     font-size: larger;
-    align: justify;
+    text-align: justify;
 }
 
 .nav_button:hover{
