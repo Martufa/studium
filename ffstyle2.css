@@ -1,13 +1,19 @@
+/*THIS DOCUMENT FOLLOWS APLHABETICAL ORDER IN ALL THE CATEGORIES*/
+
+
+/*ELEMENT STYLING*/
 body{
   color: white;
   background-color: black;
 }
 
-.meme{
-  width="30%";
-}
-
 table, th, td{
   border: 1px solid white;
   border-collapse: collapse;
+}
+
+
+/*CLASSES*/
+.meme{
+  width="10%";
 }
