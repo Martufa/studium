@@ -17,3 +17,7 @@ table, th, td{
 .meme{
   width="10%";
 }
+
+.td_head{
+  background-color: red;
+}
