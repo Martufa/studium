@@ -65,7 +65,7 @@ nav{
     left:0%;
 
     background-color: rgb(26, 26, 26);
-    z-index: -1;
+    /*z-index: -1;*/
 
     text-align: left;
     padding-top: 5%;;
