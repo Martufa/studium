@@ -21,3 +21,21 @@ table, th, td{
 .td_head{
   background-color: red;
 }
+
+
+/*HIGHLIGHT COLOURS*/
+.red{
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.yellow{
+  background-color: rgba(255, 255, 0, 0.6);
+}
+
+.green{
+  background-color: rgba(0, 255, 0, 0.6);
+}
+
+.blue{
+  background-color: rgba(0, 0, 255, 0.6);
+}
