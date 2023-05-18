@@ -12,11 +12,7 @@
 *kde zatracených uzříš smutné davy,*<br>
 *jimž zmizelo poznání dobro v duši.“*<br>
 
-<br>
-<br>
-<a href="https://martufa.github.io/studium/mainlayout.html">Projít branou</a><br>
-
-
+<pre>
                                 .+@%#*#%@**@%******+++*@%++++++++++++++++++*@+                      
                                 +@%****@%*%@#*%@@%*+++#@#*++++++++++++++++++#%-                     
                                =@%*****@*+%%#@@@%@%*+*%%*+++**+++++++++++++++##                     
@@ -112,3 +108,7 @@
  +@@#   :%@#.   +@@@@%.     .:%+              =*                                            :@-     
                              .-%=             +-                                             -#:    
                                -#+           .#:                                              =#.   
+</pre>
+<br>
+<br>
+<a href="https://martufa.github.io/studium/mainlayout.html">Projít branou</a><br>
