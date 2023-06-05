@@ -25,9 +25,9 @@ table, th, td{
 .fun{
   background-color: rgba(224, 177, 68, 0.8);
   color: black;
-  display: flex;
-  justify-content: flex-start;
-  width: 30%;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
 }
 
 /*HIGHLIGHT COLOURS*/
