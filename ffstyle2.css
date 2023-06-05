@@ -12,6 +12,10 @@ table, th, td{
   border-collapse: collapse;
 }
 
+h1, h2, h3{
+  color: darkgoldenrod;
+  font-family: 'Markazi Text';
+}
 
 /*CLASSES*/
 .meme{
