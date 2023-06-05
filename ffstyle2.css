@@ -22,6 +22,12 @@ table, th, td{
   background-color: red;
 }
 
+.fun{
+  background-color: rgba(224, 177, 68, 0.8);
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+}
 
 /*HIGHLIGHT COLOURS*/
 .red{
