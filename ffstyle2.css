@@ -20,6 +20,7 @@ h1, h2, h3{
 /*CLASSES*/
 .meme{
   width="10%";
+  margin: 0 auto;
 }
 
 .td_head{
