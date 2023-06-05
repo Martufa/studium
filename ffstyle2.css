@@ -27,6 +27,7 @@ table, th, td{
   color: black;
   display: flex;
   justify-content: flex-start;
+  width: 30%;
 }
 
 /*HIGHLIGHT COLOURS*/
